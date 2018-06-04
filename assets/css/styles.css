@@ -2,6 +2,7 @@
 
 /*------------------------colors-----------*/
 
+
 header {
     margin: 0;
 }
@@ -79,13 +80,18 @@ hr {
     background-color: #000000;
     color: #000000;
     border: solid 2px #000000;
-    height: 2px;
+    height: 3px;
     width: 1500px;
 }
 
+/*------------------------colors*/
+
+.bg-color-upcoming-tour {
+    background: linear-gradient(#cccceb, #ffc107);
+
 /*--------------------------------------------Media Queries*/
 
-@media(min-width: 992px) {
+
     
 
 
