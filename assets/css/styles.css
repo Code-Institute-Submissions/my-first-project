@@ -119,9 +119,17 @@ img {
    border:1px solid #021a40;
    background-color:#ff0;
    background-size: contain;
+   
 }
 
-.imagebox4 {
+
+.iframe {
+    float: right;
+    padding-left: 20px;
+    background-size: contain;
+}
+
+.videobox1 {
     padding-left: 20px;
 }
 
