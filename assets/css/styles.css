@@ -59,12 +59,14 @@ h3 {
      font-family:  'Poor Story', cursive;
      font-size: 50px;
      padding-top: 10px;
+     padding-bottom: 20px;
 }
 
 .uppercase {
-    font-family:  'Poor Story', cursive;
+     font-family:  'Poor Story', cursive;
      font-size: 30px;
      padding-top: 10px;
+     padding-left: 20px;
 }
 
 
@@ -110,12 +112,22 @@ section {
     border-color: #000000;
     border-width: thick;
 }
+ /*gallery section*/
 
-.box1 {
-    display: inline;
-    border-style: solid;
-    border-color: #000000;
+img {
+   padding:1px;
+   border:1px solid #021a40;
+   background-color:#ff0;
+   background-size: contain;
 }
+
+.imagebox4 {
+    padding-left: 20px;
+}
+
+
+
+
 
 
 
