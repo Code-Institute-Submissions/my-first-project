@@ -4,88 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="/assets/css/styles.css" type="text/css" />
-    <title>My First Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale-1">
 </head>
+
 <body>
-    <header>
-       <div class="row container-fluid">
-                   <a href="index.html" class="col-sm-3 logo2"></a>  
-                   <a href="index.html" class="col-sm-8 title"></a>
-        </div>
-          
+   
+   <header>
+      <div class="container">
         <div class="row">
-                <ul id="nav" class="list-inline clearfix">
-                        <li class="col-xs-6 col-sm-3 ui-menu-color-home menuitem">
-                            <a href="index.html" class="hvr"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
-                        </li>
-                        <li class="col-xs-6 col-sm-3 ui-menu-color-gallery menuitem">
-                            <a href="gallery.html" class="hvr"><i class="fa fa-camera" aria-hidden="true"></i><span>Gallery</span></a>
-                        </li>
-                        <li class="col-xs-6 col-sm-3 ui-menu-color-video menuitem">
-                            <a href="video.html" class="hvr"><i class="fa fa-youtube" aria-hidden="true "></i><span>Videos</span></a>
-                        </li>
-                        <li class="col-xs-6 col-sm-3 ui-menu-color-audio menuitem">
-                            <a href="audio.html" target="_blank"class="hvr"><i class="fa fa-headphones" aria-hidden="true"></i><span>Audio</span></a>
-                        </li>
-                    </ul>
-                </div>
-    </header>
+          <div class="col-md-3 col-sm-12 logo" style="height:300px"></div>
+           <div class="col-md-8 title" style="height:300px"></div>
+          </div>
+        </div>
+      
+      <nav class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                  <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+              </li>
+              
+              <li class="nav-item">
+                  <a class="nav-link" href="gallery.html"><i class="fa fa-camera" aria-hidden="true"></i><span>Gallery</span></a>
+              </li>
+              
+              <li class="nav-item">
+                  <a class="nav-link" href="video.html"><i class="fa fa-youtube" aria-hidden="true"></i><span>Video</span></a>
+              </li>
+              
+              <li class="nav-item">
+                  <a class="nav-link" href="audio.html"><i class="fa fa-headphones" aria-hidden="true"></i><span>Audio</span></a>
+              </li>
+          </ul>
+      </nav>
+      </nav>
+</header>
     
-    <hr size="30">
-    
-    
-   <section>
-      <div class="container-fluid">
-      <div class="row">
-          <div class="col-md-4" class="imagebox1">
-              <img src="/assets/images/blink182gallery1.jpg" style= "width:100%" alt="image cant load"></img>
-          </div>
-           <div class="col-md-4" class="imagebox2">
-              <img src="/assets/images/blink182gallery2.jpg" style= "width:100%" alt="image cant load"></img>
-          </div>
-           <div class="col-md-4" class="imagebox3">
-              <img src="/assets/images/blink182gallery3.jpg" style= "width:100%" alt="image cant load"></img>
-          </div>
-      </div>
-      <div class="row">
-          <div class="col-md-4" class="imagebox4">
-              <img src="/assets/images/blink182gallery4.jpg" style= "width:100%" alt="image cant load" border="5"></img>
-          </div>
-           <div class="col-md-4" class="imagebox5">
-              <img src="/assets/images/blink182gallery5.jpg" style= "width:100%" alt="image cant load"></img>
-          </div>
-           <div class="col-md-4" class="imagebox6">
-              <img src="/assets/images/blink182gallery6.jpg" style= "width:100%" alt="image cant load"></img>
-          </div>
-      </div>
-    </div>
-  
-    </section>
-    
-    <footer>
-        <div id="footer-details" class="row">
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">About Blink 182</h5>
-                <p class="inline-block">Blink 182 are a successful pop punk band started in the 90s-tcd. for promo and bookings email: bookings@blink182.com </p>
+<section>
+    <div class="container">
+        <div class="row image-row1">
+            <div class="col-sm-4 image1" style="height:200px">
             </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">copyright</h5>
-                <p class="inline-block"> © 2018 blink-182. All Rights Reserved.</p>
+            <div class="col-sm-4 image2" style="height:200px">
             </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Social Links</h5>
-                <ul class="list-inline social-links">
-                    <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
-                </ul>
+            <div class="col-sm-4 image3" style="height:200px">
             </div>
         </div>
-        
-    </footer>
+        <div class="row">
+           <div class="col-sm-4 image4" style="height:200px">
+           </div>
+           <div class="col-sm-4 image5" style="height:200px">
+           </div>
+           <div class="col-sm-4 image6" style="height:200px">
+           </div> 
+        </div>
+    </div>
+</section>
+    
+ <footer>
+          <div id="footer-details" class="row">
+            <div class="col-sm-4 col-md-4">
+              <h5 class="uppercase general-sub">About Blink 182</h5>
+              <p class="inline-block">Blink 182 are a successful pop punk band started in the 90s-tcd. for promo and bookings email: bookings@blink182.com
+              </p>
+            </div>
+            <div class="col-sm-4 col-md-4">
+              <h5 class="uppercase general-sub">copyright</h5>
+              <p class="inline-block">
+                © 2018 blink-182. All Rights Reserved.</p>
+            </div>
+            <div class="col-sm-4 col md-4">
+              <h5 class="uppercase general-sub">Social Links</h5>
+              <ul class="list-inline social-links">
+                <li>
+                  <a target="_blank" href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="#">
+                    <i class="fa fa-youtube"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+ </footer>
+
     
 </body>
 </html>
