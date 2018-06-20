@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="/assets/css/styles.css" type="text/css" />
@@ -13,107 +14,105 @@
 </head>
   
   <body>
-  <div class="wrapper"> 
   <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-12 logo" style="height:300px"></div>
-           <div class="col-md-8 title" style="height:300px"></div>
-           
-        </div>
-      </div>
-      
-      <nav class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <ul class="navbar-nav">
-              <li class="nav-item active">
-                  <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
-              </li>
-              
-              <li class="nav-item">
-                  <a class="nav-link" href="gallery.html"><i class="fa fa-camera" aria-hidden="true"></i><span>Gallery</span></a>
-              </li>
-              
-              <li class="nav-item">
-                  <a class="nav-link" href="video.html"><i class="fa fa-youtube" aria-hidden="true"></i><span>Video</span></a>
-              </li>
-              
-              <li class="nav-item">
-                  <a class="nav-link" href="audio.html"><i class="fa fa-headphones" aria-hidden="true"></i><span>Audio</span></a>
-              </li>
-          </ul>
-      </nav>
-      </nav>
+    <div class="container-fluid"> 
+          <a href="index.html">
+          <div class="title-logo" href="index.html" id="logo" style=""></div>
+          <div class="title-logo" href="index.html" id="title" style=""></div>
+         </a>
+    </div>
+    
+    <nav class="navbar navbar-dark bg-dark active">
+             <div class="col-3 nav-bar">
+               <a class="nav-link active" href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+             </div>
+             <div class="col-3 nav-bar">
+               <a class="nav-link" href="gallery.html"><i class="fa fa-camera" aria-hidden="true"></i><span>Gallery</span></a>
+             </div>
+             <div class="col-3 nav-bar">
+               <a class="nav-link" href="video.html"><i class="fa fa-youtube" aria-hidden="true"></i><span>Video</span></a>
+             </div>
+             <div class="col-3 nav-bar">
+               <a class="nav-link" href="audio.html"><i class="fa fa-headphones" aria-hidden="true"></i><span>Audio</span></a>
+             </div>
+       </nav> 
 </header>
 
-    <section>
-   <div class="container-fluid">
-        <div class="row eventlist">
-            <div class="col-xs-12 col-sm-12 col-md-4 section-column">
-                  <h3 class="section-heading"><strong>World Tour</strong></h3>
-            <div>
-              <p><strong>June 2018</strong> - las vegas NV USA</p>
-            </div>
-            <div>
-              <p><strong>July 2018</strong> - London UK</p>
-            </div>
-            <div>
-              <p><strong>August 2018</strong> - Berlin EU</p>
-            </div>
-            <div>
-              <p><strong>September 2018</strong> - Moscow RUSS</p>
-            </div>
-            <div>
-            <p><strong>October 2018</strong> - Beijing CHN</p>
-            </div>
-            <div>
-              <p><strong>November 2018</strong> - Sydney AUS</p>
-            </div>
+
+<section class="main-section">
+      <div class="wrapper">
+          
+         <div class="col-lg-4 col-md-4 event-list" style="height:400px">
+          <div class="col-lg 6 title">
+          <h3>World Tour</h3>
           </div>
-            <div class="col-md-6 col-lg 8 main-video">
-              <iframe width="700" height="400" src="https://www.youtube.com/embed/lic0oCDMfwk?rel=0" encrypted-media" "allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
+          <div>
+              <p class="events"><strong>June 2018</strong> Las vegas NV US</p>
+          </div>
+           <div>
+              <p class="events"><strong>July 2018</strong> London UK</p>
+          </div>
+           <div>
+              <p class="events"><strong>August 2018</strong> Berlin GMN EU
+          </div>
+           <div>
+              <p class="events"><strong>September 2018</strong> Moscow RUSS</p>
+          </div>
+           <div>
+              <p class="events"><strong>October 2018</strong> Beijing CHINA/p>
+          </div>
+           <div>
+              <p class="events"><strong>November 2018</strong> Sydney AUS</p>
+          </div>
+         
+          </div>
+          </div>
+          
+         <div class="col-lg-6 col-md-6 main-video" style="height:400px">
+             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/pprDIMJCyy0?rel=0" frameborder="0" allow="autoplay" encrypted-media="allowfullscreen"></iframe>
+          </div>
+          <div class="col-lg-2 col-md-2 social-links" style="height:400px">
+              <div class="list-block">
+                   <ul class="social-links">
+                        <li>
+                          <a target="_blank" href="#">
+                            <i class="fa fa-facebook"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="#">
+                            <i class="fa fa-twitter"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="#">
+                            <i class="fa fa-youtube"></i>
+                          </a>
+                        </li>
+                      </ul>
+              </div>
+          </div>
+      
 </section>
 
-
-  <footer class="footer">
-      <div class="container">
-        <div  class="row">
-            <div class="col-sm-12 col-md-4">
+ 
+ <footer>
+     <nav class="navbar navbar-dark bg-dark">
+             <div class="col-sm-6 col-md-6">
               <h5 class="uppercase general-sub">About Blink 182</h5>
-              <p class="inline-block">Blink 182 are a successful pop punk band started in the 90s-tcd. for promo and bookings email: bookings@blink182.com</p>
+              <p>Blink 182 are a successful pop punk band started in the 90s-tcd. for promo and bookings email: bookings@blink182.com
+              </p>
             </div>
-            <div class="col-sm-4 col-md-4">
+             <div class="col-sm-6 col-md-6 ">
               <h5 class="uppercase general-sub">copyright</h5>
-              <p class="inline-block">
+              <p class="footer-details">
                 © 2018 blink-182. All Rights Reserved.</p>
             </div>
-            <div class="col-sm-4 col md-4">
-              <h5 class="uppercase general-sub">Social Links</h5>
-              <ul class="list-inline social-links">
-                <li>
-                  <a target="_blank" href="#">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li>
-                  <a target="_blank" href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a target="_blank" href="#">
-                    <i class="fa fa-youtube"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-</footer>
-</div>
+             
+       </nav> 
+   
+    </footer>
+    
 </body>
 
  
