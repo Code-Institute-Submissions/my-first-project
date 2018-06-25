@@ -135,7 +135,7 @@ a:hover {
 }
 
 .list-block {
-    /*position: absolute;*/
+    position: absolute;
     margin: auto;
     text-align: center;
 }
@@ -176,45 +176,60 @@ ul{
  /*---------------------------------gallery section*/
     
 
-.image1{
-    background:url(/assets/images/blink182gallery1.jpg);
+#image1{
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 200px;
+    width: 380px;
+    padding: 5px;
 }
 
-.image2{
-    background:url(/assets/images/blink182gallery2.jpg);
+#image2{
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 200px;
+    width: 380px;
+    padding: 5px;
     
   }
 
-.image3 {
-     background:url(/assets/images/blink182gallery3.jpg);
+#image3 {
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 0;
+    height: 200px;
+    width: 380px;
+    padding: 5px;
 }
 
-.image4{
-     background:url(/assets/images/blink182gallery4.jpg);
+#image4{
+    
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 200px;
+    width: 380px;
     margin: 0;
+    padding: 5px;
 }
 
-.image5{
-     background:url(/assets/images/blink182gallery5.jpg);
+#image5{
+    
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 0;
+    height: 200px;
+    width: 380px;
+    padding: 5px;
 }
 
-.image6{
-     background:url(/assets/images/blink182gallery6.jpg);
+#image6{
+    
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 0;
+    height: 200px;
+    width: 380px;
+    padding: 5px;
 }
     
 

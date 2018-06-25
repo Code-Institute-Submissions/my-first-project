@@ -37,7 +37,7 @@ Instead of the usual links down in the footer or barely visible side bar, Ive go
 * assets/images
 
 Audio files sourced from soundcloud-direct link
-Video files sourced fromm Youtube-direct link
+Video files sourced from Youtube-direct link
 
 ### Tests
 ----------------------------------------
@@ -45,7 +45,7 @@ Video files sourced fromm Youtube-direct link
 
 #### Author:
 
-Wildweb Developments
+Jon simmons @ Wildweb Developments
 
 
 
