@@ -78,10 +78,6 @@ a:hover {
 
 .event-list {
     float: left;
-    /*background-image: url(/assets/images/blink182logo2.jpg);*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
-    /*opacity: .3;*/
     position: relative;
     min-width: 25%;
 }
